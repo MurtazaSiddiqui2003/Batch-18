@@ -34,7 +34,7 @@ var  myJsProjects = {
             id: 4,
             name: 'Card Flip',
             img: img4,
-            link: 'cardflip-by-murtaza.surge.sh'
+            link: 'card-flip-by-murtaza.surge.sh'
         },
         {
             id: 5,
@@ -46,7 +46,7 @@ var  myJsProjects = {
             id: 6,
             name: 'Text Converter',
             img: img6,
-            link: 'text-converter-by-murtaza.surge.sh'
+            link: 'textconverter-by-murtaza.surge.sh'
         },
         {
             id: 7,
