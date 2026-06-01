@@ -1,0 +1,73 @@
+.card {
+    margin: 10px 10px;
+    padding: 0px 10px;
+    width: 250px;
+    min-height: 400px;
+    box-shadow: 2px 2px 10px black;
+    transition: all ease 0.5s;
+    background-color: rgb(225, 225, 225);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .cardimage {
+    overflow: hidden;
+
+}
+
+.card img {
+    height: 40%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    transition: all ease 1s;
+}
+
+.card img:hover {
+    scale: 1.08;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.brand {
+    font-size: 10px;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.reviews {
+    display: none;
+}
+
+.name-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-rating {
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stock-cart {
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a2c-btn {
+    background-color: rgb(196, 255, 47);
+    padding: 5px;
+    border-radius: 5px;
+}

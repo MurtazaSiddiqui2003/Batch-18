@@ -1,0 +1,7 @@
+.app {
+    display: flex;
+}
+
+.main {
+    width: calc(100 - 250px);
+}

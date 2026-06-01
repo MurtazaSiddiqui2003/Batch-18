@@ -1,0 +1,4 @@
+.everything {
+    width: calc(100vw - 250px);
+    margin-left: 250px;
+}
