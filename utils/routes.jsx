@@ -7,7 +7,7 @@ import About from "../pages/about/about";
 import Contact from "../pages/contact/contact";
 import ServicesScreen from "../pages/services/services";
 import ProductApi from '../pages/api/product-api';
-import TodoScreen from "../pages/todo/todo";
+import TodoScreen from "../pages/Todo/todo";
 import Counter from '../pages/counter/counter';
 import Animation from "../pages/animation/animation";
 import ColorFlip from '../pages/color-flipper/colorflipper';
