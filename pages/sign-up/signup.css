@@ -1,0 +1,100 @@
+.signupPage {
+    min-height: 100vh;
+    width: calc(100vw - 250px);
+    background-image: url(./signupBG.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.signupform {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.signupform input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+}
+
+.signupform .terms p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.signupform p input {
+    margin-left: -120px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.signupform p label {
+    margin-left: -150px;
+}
+
+.signupform #agree a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.signupform #agree a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+
+.signupform #reg {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 20px;
+    background: #ffffff;
+    border: groove;
+    border-radius: 5px;
+}
+
+.signupform #reg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.signupform .logindiv    {
+    padding-top: 15px;
+}
+
+.signupform p {
+    color: #ffffff;
+}
+
+.signupform p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.signupform p a:hover {
+    color: purple;
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.homePage {
+    height: 100vh;
+    width: calc(100vw - 250px);
+    background-image: url(./home.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage .data {
+    text-align: center;
+    background-color: rgba(59, 58, 58, 0.212);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 300px; */
+}
+
+.data h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+}

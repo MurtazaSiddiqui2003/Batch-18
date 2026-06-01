@@ -1,0 +1,38 @@
+.projects-div {
+    height: 100vh;
+    width: calc(100vw - 250px);
+    overflow: hidden;
+    display: flex;
+}
+
+.projects-div div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+
+.projects-div .css {
+    background-image: url(./css-projects/css.jpg);
+}
+
+.projects-div .js {
+    background-image: url(./js-projects/js.jpg);
+}
+
+.projects-div div h3 {
+    text-align: center;
+    background-color: rgba(156, 155, 155, 0.418);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 300px; */
+}
+
+.projects-div div:hover {
+    scale: 1.03;
+}

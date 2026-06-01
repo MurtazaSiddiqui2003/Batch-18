@@ -1,0 +1,18 @@
+.notfound {
+    min-height: 100vh;
+    width: calc(100vw - 250px);
+    background-image: url(./notfound.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.notfound:first-child {
+    padding-top: 50px;
+}

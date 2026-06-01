@@ -1,0 +1,37 @@
+.productApi {
+    width: calc(100vw - 250px);
+    min-height: 100vh;
+}
+
+.productApi .filterBar {
+    width: calc(100vw - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: gray;
+}
+
+.productApi button {
+    height: 30px;
+    /* margin-top: 10px; */
+    padding: 5px;
+    background-color: rgb(158, 241, 32);
+    border: none;
+    border-radius: 5px;
+}
+
+.productApi select {
+    margin-bottom: 10px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products button {
+    margin-bottom: 5px;
+}
+

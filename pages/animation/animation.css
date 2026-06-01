@@ -1,0 +1,30 @@
+.animation {
+    height: 100vh;
+    width: calc(100vw - 250px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-div {
+    text-align: center;
+    background-color: rgba(59, 58, 58, 0.212);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.animation .circle {
+    animation: circle linear 5s infinite;
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
