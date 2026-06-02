@@ -1,6 +1,6 @@
 .todo {
     min-height: 100vh;
-    width: calc(100vw - 250px);
+    width: calc(100vw);
     font-family: Arial, sans-serif;
     background-image: url(./todo-background/BG1.jpg);
     background-attachment: fixed;
