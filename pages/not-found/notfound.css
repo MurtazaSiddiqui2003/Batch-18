@@ -1,7 +1,7 @@
 .notfound {
     min-height: 100vh;
     width: calc(100vw - 250px);
-    background-image: url(./notfound.jpg);
+    background-image: url(./notfound.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: whitesmoke;
+}
+
+.notfound .data {
+    text-align: center;
+    background-color: rgba(59, 58, 58, 0.212);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 300px; */
 }
 
 .notfound:first-child {

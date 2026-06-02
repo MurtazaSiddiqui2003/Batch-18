@@ -5,12 +5,12 @@ import './notfound.css'
 const NotFound = () => {
   return (
     <div className='notfound'>
-      <div>
+      <div className='data'>
       <h1>404 - Page Not Found</h1>
       <h1>MOYE MOYE</h1>
       </div>
 
-      <Animation />
+      {/* <Animation /> */}
     </div>
   )
 }
