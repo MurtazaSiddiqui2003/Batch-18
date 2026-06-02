@@ -36,7 +36,7 @@ const LoveProposal = () => {
                         className='gif'
                     />
 
-                    <h2 className='heading'>Eisha, Do you love me?</h2>
+                    <h2 className='heading'>Dear, Do you love me?</h2>
 
                     {isLoading ? (
                         <div >Loading your answer... ❤️</div>
@@ -69,13 +69,11 @@ const LoveProposal = () => {
                         alt="Happy Dance"
                         className='gif'
                     />
-                    <h2 className='heading'>Yay! I Knew It! 🥰 <br /> I Love You Too 💖</h2>
+                    <h2 className='heading'>Yay! I Knew It! 🥰</h2>
                 </div>
             )}
         </div>
     );
-};
-
-// Simple inline styling for rapid implementation
+};
 
 export default LoveProposal;
