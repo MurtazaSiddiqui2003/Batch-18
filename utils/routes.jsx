@@ -21,6 +21,8 @@ import JsProjects from '../pages/projects/js-projects/js.jsx';
 import SignUp from '../pages/sign-up/signup'
 import Login from '../pages/log-in/login';
 import NotFound from "../pages/not-found/not-found";
+import LoveProposal from '../pages/love/love';
+
 
 const RoutesComponent = () => {
     return (
@@ -38,7 +40,8 @@ const RoutesComponent = () => {
                 <Route path="/projects" element={<Projects />} /> 
                 <Route path="/css-projects" element={<CssProjects />} />
                 <Route path='/js-projects' element={<JsProjects />} /> 
-                <Route path='/weather' element={<Weather /> } />
+                <Route path='/weather' element={<Weather /> } /> 
+                <Route path='/love' element={<LoveProposal /> } />
                 {/* <Route path="/users" element={<UsersScreen />} />
                 <Route path="/counter" element={<Counter />} />
                 <Route path="/user/:id" element={<User />} />
