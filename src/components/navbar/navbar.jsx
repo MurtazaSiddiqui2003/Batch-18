@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav>
             <ul className='navBar'>
-                <li> <Link to={'/love'}> For HER </Link> </li>
+                {/*<li> <Link to={'/love'}> For HER </Link> </li>*/}
                 <li> <Link to={'/'}> Home </Link> </li>
                 <li> <Link to={'/about'}> About </Link> </li>
                 <li> <Link to={'/contact'}> Contact </Link> </li>
