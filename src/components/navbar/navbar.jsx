@@ -10,8 +10,8 @@ const Navbar = () => {
         <nav>
             <ul className='navBar'>
                 
-                <li> <Link to={'/'}> Home </Link> </li>
-                <li> <Link to={'/about'}> About </Link> </li>
+                <li> <Link to={'/'}> 🏠 </Link> </li>
+                <li> <Link to={'/about'}> 🧑🏻‍🦱 </Link> </li>
                 <li> <Link to={'/contact'}> Contact </Link> </li>
                 <li> <Link to={'/services'}> Services </Link> </li>
                 <li> <Link to={'/projects'}> Projects </Link> </li>                
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li> <Link to={'/weather'}> Weather </Link> </li>
                 <li> <Link to={'/users'}> Users </Link> </li>
                 <li> <Link to={'/animation'}> Animation </Link> </li>
-                <li> <Link to={'/love'}> For HER </Link> </li>
+                <li> <Link to={'/love'}> For Her ❤️ </Link> </li>
                 <li> <Link to={'/login'}> Login </Link> </li>
                 <li> <Link to={'/signup'}> SignUp </Link> </li>
                 
