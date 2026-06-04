@@ -1,16 +1,13 @@
 .loginpage {
     min-height: 100vh;
-    /* for now */
-    width: calc(100vw - 250px);
-    /* usually  */
-    /* min-width: 100vw; */
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
     color: #333;
     background-image: url(./LoginBG.jpg);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,4 +82,21 @@ div.input {
 #loginform button:focus {
     transition: all 0.4s ease;
     scale: 1;
+}
+
+#loginform .signupDiv    {
+    padding-top: 15px;
+}
+
+#loginform .signupDiv p {
+    color: #000;
+}
+
+#loginform .signupDiv p a {
+    text-decoration: none;
+}
+
+#loginform .signupDiv p a:hover {
+    color: purple;
+    text-decoration: underline;
 }

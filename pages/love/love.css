@@ -1,8 +1,9 @@
 .container {
+    height: 100vh;
+    width: calc(100vw - 250px);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #ffe3e8;
     font-family: 'Poppins', sans-serif;
 }

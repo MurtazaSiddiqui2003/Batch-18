@@ -1,14 +1,14 @@
 .weather-page {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
-    /* background: url(./weather-image/30.jpg); */
+    width: calc(100vw - 250px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 0.5s ease;
+    transition: all 0.5s ease;
     color: #fff;
 }
 

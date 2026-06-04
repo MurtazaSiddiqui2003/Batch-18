@@ -1,6 +1,6 @@
 .contactPage {
     height: 100vh;
-    /* width: calc(100vw - 250px); */
+    width: calc(100vw - 250px);
     background-image: url(./contact.jpg);
     /* background-attachment: fixed; */
     background-repeat: no-repeat;

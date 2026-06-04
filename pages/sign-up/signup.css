@@ -1,6 +1,6 @@
 .signupPage {
     min-height: 100vh;
-    width: calc(100vw - 250px);
+    width: 100vw;
     background-image: url(./signupBG.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
