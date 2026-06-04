@@ -8,10 +8,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="app">
-        <Navbar />
-        <main className="main">
+        {/* <Navbar /> */}
+        {/* <main className="main"> */}
           <RoutesComponent />
-        </main>
+        {/* </main> */}
       </div>
     </BrowserRouter>
   );
