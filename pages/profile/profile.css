@@ -1,0 +1,56 @@
+.profile-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: calc(100%);
+    background-color: #ccc;
+}
+
+.profile-page button {
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.profile-page button:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.profile-page button {
+    padding: 10px 30px;
+}
+
+.edit-btn button {
+    background-color: yellow;
+}
+
+.profile {
+    display: flex;
+}
+
+.user-info {
+    flex-grow: 2;
+}
+
+#emailVerified button {
+    margin-left: 12px;
+    background-color: greenyellow;
+}
+
+.user-info h2 {
+
+    height: 50px;
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.user-img-logout {
+    flex-grow: 1;
+}
+
+.user-img-logout button {
+    background-color: red;
+}
