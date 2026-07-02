@@ -35,12 +35,11 @@ const Navbar = () => {
                 <li> <Link to={'/users'}> Users </Link> </li>
                 <li> <Link to={'/animation'}> Animation </Link> </li>
                 <li> <Link to={'/love'}> For Her </Link> </li>
+                {/* <li> <Link to={'/track'}> Track </Link> </li> */}
                 {/* <li> <Link to={'/login'}> Login </Link> </li>
                 <li> <Link to={'/signup'}> SignUp </Link> </li> */}
             </ul>
-            <button onClick={handleLogout}>
-                Logout
-            </button>
+            <li><Link to={'/profile'}> Profile </Link></li>
         </nav>
     )
 }

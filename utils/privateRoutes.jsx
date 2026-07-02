@@ -12,10 +12,13 @@ import Animation from "../pages/animation/animation";
 import ColorFlip from "../pages/color-flipper/colorflipper";
 import Weather from "../pages/weather-app/weather";
 import Projects from "../pages/projects/projects";
-import CssProjects from "../pages/projects/css-projects/css";
-import JsProjects from "../pages/projects/js-projects/js";
+import CssProjects from "../pages/projects/css-projects/css.jsx";
+import JsProjects from "../pages/projects/js-projects/js.jsx";
 import LoveProposal from "../pages/love/love";
 import NotFound from "../pages/not-found/not-found";
+import Profile from "../pages/profile/profile";
+import EditProfile from "../pages/profile/editProfile";
+import Track from "../pages/tracking/tracking";
 
 
 const PrivateRoutes = () => {
@@ -35,7 +38,9 @@ const PrivateRoutes = () => {
             <Route path="/js-projects" element={<JsProjects />} />
             <Route path="/weather" element={<Weather />} />
             <Route path="/love" element={<LoveProposal />} />
-
+            <Route path="/track" element={<Track />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/editprofile" element={<EditProfile />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );

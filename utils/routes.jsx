@@ -15,6 +15,14 @@ const RoutesComponent = () => {
   const [isUserLoggedin, setIsUserLoggedin] = useState(null);
 
   useEffect(() => {
+    const subscribe = onAuthStateChanged(auth, (user) => {
+      setIsUserLoggedin(user);
+    });
+
+    return () => subscribe();
+  }, []);
+
+  useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setIsUserLoggedin(!!user);
     });
