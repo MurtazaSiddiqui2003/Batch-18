@@ -1,5 +1,5 @@
 .projects-div {
-    height: 100vh;
+    min-height: 100vh;
     width: calc(100vw - 250px);
     overflow: hidden;
     display: flex;

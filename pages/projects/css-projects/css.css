@@ -1,0 +1,34 @@
+.jsProjects {
+    min-height: 100vh;
+    width: calc(100vw- 250px);
+    text-align: center;
+}
+
+.jsProjects h1 {
+    padding: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+}
+
+.projectCard {
+    /* margin: 5px; */
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    /* width: 300px; */
+}
+
+.projectImage {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.projectImage:hover {
+    scale: 1.03    ;
+}
+
