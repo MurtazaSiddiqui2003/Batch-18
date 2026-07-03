@@ -18,7 +18,7 @@ import LoveProposal from "../pages/love/love";
 import NotFound from "../pages/not-found/not-found";
 import Profile from "../pages/profile/profile";
 import EditProfile from "../pages/profile/editProfile";
-import Track from "../pages/tracking/tracking";
+// import Track from "../pages/tracking/tracking";
 
 
 const PrivateRoutes = () => {
