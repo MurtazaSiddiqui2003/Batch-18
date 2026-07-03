@@ -21,7 +21,7 @@ const Login = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userData) => {
         console.log('User Data', userData);
-        naviagte('/');
+        naviagte('/about');
       })
       .catch((error) => {
         alert("Couldn't logged in")
