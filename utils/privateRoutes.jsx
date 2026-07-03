@@ -38,7 +38,7 @@ const PrivateRoutes = () => {
             <Route path="/js-projects" element={<JsProjects />} />
             <Route path="/weather" element={<Weather />} />
             <Route path="/love" element={<LoveProposal />} />
-            <Route path="/track" element={<Track />} />
+            {/* <Route path="/track" element={<Track />} /> */}
             <Route path="/profile" element={<Profile />} />
             <Route path="/editprofile" element={<EditProfile />} />
             <Route path="*" element={<NotFound />} />
